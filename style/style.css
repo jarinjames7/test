@@ -1,0 +1,230 @@
+
+@font-face {
+    font-family: 'TESLA Regular';
+    src: url("resources/font/TESLA.ttf") format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+.logo a{
+    font-family: "TESLA Regular";
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.5rem;
+    font-size: 1.4rem;
+}
+.logo img {
+    height: 13px;
+}
+
+.center-nav {
+    display: flex;
+    gap: 25px;
+}
+
+.center-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family:sans-serif;
+}
+
+.center-nav a:hover {
+    text-decoration:box;
+    color: grey;
+}
+
+.right-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.right-icons .material-icons {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.right-icons .material-icons:hover {
+    color: #ddd;
+    text-decoration: solid;
+    opacity: 0.5;
+}
+.model3{
+    width: 100%;
+    height: 100vh;
+    background-image:url("/resources/images/model3.avif");
+    padding: 0px 3rem 0px 3rem;
+    background-size: cover;
+}
+.frist-space{
+    width:100%;
+    height: 50%;
+    padding-top: 3rem;
+}
+.second-space{
+    width:100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+.text-holder{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.button-holder{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 100px;
+}
+.text-holder h1,.text-holder p,.text-holder h3{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+}
+.button-holder button{
+    width: 14rem;
+    height: 2.5rem;
+    margin: 1rem;
+    border: 0;
+    border-radius: 0.4rem;
+}
+button{
+    font-weight: bold;
+}
+.order{
+    background-color:#3e6ae1;
+    color: white;
+}
+.demo{
+    background-color: white;
+    color: black;
+}
+.text-holder a{
+    color: #faf9f9;
+}
+.text-holder p{
+    font-family:sans-serif;
+    color: white;
+    letter-spacing: 0.05rem;
+    word-spacing: 0.05rem;
+}
+.text-holder h1{
+    font-family: "Noto Sans Display";
+    color: white;
+    font-size: 3rem;
+}
+.text-holder h3{
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+}
+sup{
+    font-size: 0.8rem;
+}
+.modely{
+    width: 100%;
+    height: 100vh;
+    background-image:url(/Tesla/main/modely.avif) ;
+    padding: 0px 3rem 0px 3rem;
+    background-size: cover;
+}
+.modelx{
+    width: 100%;
+    height: 100vh;
+    background-image:url(/Tesla/main/modelX.avif) ;
+    padding: 0px 3rem 0px 3rem;
+    background-size: cover;
+}
+.foot{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 80vh;
+    background-color: #000;
+}
+.first-footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    padding: 2rem;
+}
+.footer-textholder{
+    width: auto;
+    height: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+.footer-textholder p{
+    padding: 1rem;
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+}
+.second-footer{
+    display: flex;
+    align-items: center;
+     margin: 0;
+     margin-top: 10px;
+    padding: 1rem;
+    width: 100%;
+    height: 5rem;
+}
+.footer-credits{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color:black;
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    margin: 0;
+}
+.footer-nav{
+    display: flex;
+    gap: 20px;
+}
+.footer-nav a{
+    text-decoration: none;
+    color: #d0d1d2;
+    font-size: 0.9rem;
+}
+.footer-textholder p{
+    font-size: 0.8rem;
+    color: #d0d1d2;
+    font-family: sans-serif;
+    letter-spacing: 0.05rem;
+    font-weight:500;
+}
+.footer-textholder a{
+    color: white;
+}
