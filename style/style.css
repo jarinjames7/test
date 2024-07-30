@@ -148,14 +148,14 @@ sup{
 .modely{
     width: 100%;
     height: 100vh;
-    background-image:url(/Tesla/main/modely.avif) ;
+    background-image:url(../resources/images/modely.avif) ;
     padding: 0px 3rem 0px 3rem;
     background-size: cover;
 }
 .modelx{
     width: 100%;
     height: 100vh;
-    background-image:url(/Tesla/main/modelX.avif) ;
+    background-image:url(../resources/images/modelX.avif) ;
     padding: 0px 3rem 0px 3rem;
     background-size: cover;
 }
