@@ -67,7 +67,7 @@ header {
 .model3{
     width: 100%;
     height: 100vh;
-    background-image:url("resources/images/model3.avif");
+    background-image:url("/resources/images/tesla-logo-png-2244.png");
     padding: 0px 3rem 0px 3rem;
     background-size: cover;
 }
