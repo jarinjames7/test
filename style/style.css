@@ -196,7 +196,7 @@ sup{
     padding: 1rem;
     width: 100%;
     height: 5rem;
-    background-color: #000;
+    background-color: black;
 }
 .footer-credits{
     display: flex;
