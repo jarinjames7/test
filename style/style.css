@@ -74,6 +74,7 @@ header {
     background-image:url(../resources/images/model3.avif);
     padding: 0px 3rem 0px 3rem;
     background-size: cover;
+    margin: 0;
 }
 .frist-space{
     width:100%;
@@ -155,6 +156,7 @@ sup{
     background-image:url(../resources/modely.avif);
     padding: 0px 3rem 0px 3rem;
     background-size: cover;
+    margin: 0;
 }
 .modelx{
     width: 100%;
