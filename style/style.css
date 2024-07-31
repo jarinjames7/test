@@ -88,7 +88,7 @@ header {
 }
 .text-holder{
     width: auto;
-    height: auto;
+    height: 50%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -96,7 +96,7 @@ header {
 }
 .button-holder{
     width: auto;
-    height: auto;
+    height: 50%;
     display: flex;
     justify-content: center;
     flex-direction: row;
